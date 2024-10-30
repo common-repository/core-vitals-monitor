@@ -1,0 +1,310 @@
+.key-metrics-header-wrap {
+    text-align: center;
+    margin: 0 0 30px;
+    background: #fff;
+    border-bottom: 1px solid #e2e4e7;
+    padding: 10px 0 0 0;
+}
+
+.key-metrics-header-message {
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0 10px 20px;
+}
+
+.key-metrics-form {
+    max-width: 900px;
+    margin: 3em auto;
+    display: block;
+    padding: 0 1em;
+}
+
+.key-metrics-cont {
+    margin-top: 1em;
+}
+
+.key-metrics-form h3 {
+    padding: 0;
+    font-weight: 400;
+    color: #23282d;
+    font-size: 1.3em;
+    margin: 1em 0;
+}
+
+.key-metrics-header-wrap h1::before {
+    font-size: 40px;
+    margin: -8px 25px 0 -25px;
+}
+
+.key-metrics-header-wrap a {
+    line-height: 1.1;
+    font-weight: 600;
+    font-size: 23px;
+    color: #23282d;
+    text-decoration: none;
+}
+
+.dashicons-before.kmtx {
+    color: #02657a;
+    font-size: smaller;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+.key-metrics-form .kmtx.dashicons-before::before {
+    vertical-align: middle;
+}
+
+.dashicons-awards:before {
+    content: "\f311";
+}
+
+.key-metrics-section {
+    margin: 15px 0;
+    background: #fff;
+    padding: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccd0d4;
+    border: 1px solid #c3c4c7;
+    border-left-width: 2px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 24%);
+    display: block;
+    min-height: 30%;
+}
+
+.key-metrics-table .head {
+    background: #1fb4ee;
+    color: white;
+}
+
+.key-metrics-table th,
+td {
+    padding: 15px 2px;
+    padding-left: 15px;
+}
+
+.key-metrics-table {
+    text-align: center;
+    width: 100%;
+    border-spacing: 0;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: 1px solid #9b9b9b30;
+}
+
+.key-metrics-table td,
+th,
+tr {
+    border: 1px solid #9b9b9b30;
+    border-top: 0;
+    border-right: 0;
+}
+
+.key-metrics-table th {
+    font-weight: normal;
+}
+
+.key-metrics-table td {
+    font-weight: 500;
+    color: #444;
+}
+
+.key-metrics-table tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+.key-metrics-table td:first-child,
+th:first-child {
+    text-align: left;
+}
+
+#wpcontent {
+    padding-left: 0 !important;
+}
+
+.key-metrics-form .good {
+    color: #02a400;
+}
+
+.key-metrics-form .fair {
+    color: #e09100;
+}
+
+.key-metrics-form .poor {
+    color: #f80609;
+}
+
+#key_metrics_progressbar {
+    background-color: #20201f21;
+    border-radius: 20px;
+    padding: 0px;
+    display: none;
+}
+
+#key_metrics_progressbar>div {
+    background-color: darkseagreen;
+    width: 1%;
+    height: 3px;
+    border-radius: 10px;
+}
+
+.edible {
+    opacity: 1s;
+    transition: all 1s;
+}
+
+.green {
+    color: green !important;
+}
+
+.csp {
+    cursor: pointer
+}
+
+.c-inh {
+    color: inherit;
+}
+
+.t-strike {
+    text-decoration: line-through;
+}
+
+/* #key_metrics_update:hover {
+    color: #02a400;
+} */
+
+.rotate {
+    animation: rotation 2s infinite linear;
+}
+
+.rotate.fast {
+    animation-duration: 1s;
+}
+
+.fetching.strike {
+    text-decoration: line-through;
+}
+
+.fetching.fade {
+    opacity: 0.5;
+}
+
+#key_metrics_table.fetching #update_text {
+    display: revert;
+}
+
+#update_text {
+    display: none;
+}
+
+#key_metrics_table.fetching #km_last_updated {
+    display: none;
+}
+
+#key_metrics_table.fetching #key_metrics_update::before {
+    animation: rotation 1s infinite linear;
+}
+
+#key_metrics_table.fetching .edible {
+    opacity: 0.5;
+    transition: all 1s;
+}
+
+#key_metrics_table.fetching .table_hr {
+    display: none;
+}
+
+.table_hr {
+    height: 2px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+#key_metrics_table.fetching #key_metrics_progressbar {
+    display: revert;
+}
+#key_metrics_url_settings .key_metrics-in {
+    width: 100%;
+}
+
+.mt-3 {
+    margin-top: 3em;
+}
+
+.mt-2 {
+    margin-top: 2em;
+}
+
+#key_metrics_url_settings .button-remove {
+    border-color: #994343;
+    color: #994343;
+}
+
+#key_metrics_url_settings tr:nth-child(even) {
+    background: initial;
+}
+
+#key_metrics_url_settings th,
+#key_metrics_url_settings td {
+    padding: 20px 15px;
+    border-left: none !important;
+    text-align: right;
+}
+
+#key_metrics_url_settings td {
+    font-weight: normal;
+}
+
+#key_metrics_url_settings th {
+    text-align: left;
+    padding: 15px;
+}
+
+#key_metrics_url_settings th:last-child {
+    text-align: center;
+    width: 10%;
+    min-width: fit-content;
+}
+
+#key_metrics_url_settings th:first-child {
+    width: 20%;
+}
+
+.kmtx_fl-r {
+    float: right;
+}
+
+.kmtx_tac {
+    text-align: center;
+}
+
+.key-metrics-section .button {
+    min-height: 30px;
+    padding: 0 0.6em;
+    line-height: inherit;
+}
+
+.key_metrics_settings.head {
+    color: black;
+    background: lightgray;
+    font-weight: 600;
+}
+
+.key_metrics_save_changes {
+    text-align: right;
+    padding-top: 20px;
+}
+
+.description.sources {
+    color: #0f6a99;
+    margin-bottom: 0;
+}
+
+.bold6 {
+    font-weight: 600 !important;
+}
+
+.bold {
+    font-weight: bold !important;
+}
